@@ -60,7 +60,7 @@ Variable: **language**
 
 ### Feedback & Support
 
-If you have suggestions for expanding the macro's functionality or find a bug, please contact via email: free.anatoliy.kovtun@gmail.com
+If you have suggestions for expanding the macro's functionality or find a bug, please use [GitHub Issues](https://github.com/anatoliy-kovtun/DroidLog/issues) or contact via email: free.anatoliy.kovtun@gmail.com
 
 ### Screenshots
 
