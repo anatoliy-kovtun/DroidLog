@@ -12,12 +12,12 @@ Advanced notification logger for MacroDroid.
 - Saves notifications to a text file.
 
 Notification record format:
-
+```
 App: App Name
 Title: Notification Title
 Date: 07.04.2026 07:43:00
 Text: Notification Text
-
+```
 - Automatically creates log archives and clears the log.
 - Features a graphical main menu.
 - Features a graphical settings window.
@@ -83,12 +83,12 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 - Зберігає сповіщення в текстовий файл.
 
 Формат запису сповіщення:
-
+```
 Додаток: Назва додатку
 Заголовок: Заголовок сповіщення
 Дата: 07.04.2026 07:43:00
 Текст: Текст сповіщення
-
+```
 - Автоматично створює архіви логу і очищає лог.
 
 - Має своє графічне головне меню.
