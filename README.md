@@ -40,25 +40,37 @@ Default values:
 
 Log file path: /sdcard/Documents/notifications/notification_log.txt
 
-Variable: log_file_path
+Variable: **log_file_path**
 
 Maximum log file size in kilobytes at which a warning will appear: 500 (0 - No warning will appear)
 
-Variable: log_size_threshold
+Variable: **log_size_threshold**
 
 Maximum log file size in kilobytes at which a log archive will be automatically created and the log file cleared: 1000 (0 - Archiving and clearing will not occur)
 
-Variable: log_auto_archive_threshold
+Variable: **log_auto_archive_threshold**
 
 Maximum number of log archives to be stored (rotation): 10
 
-Variable: log_archives_max_count
+Variable: **log_archives_max_count**
 
 Language. UA/EN (Ukrainian/English): EN
 
-Variable: language
+Variable: **language**
+
+### Feedback & Support
 
 If you have suggestions for expanding the macro's functionality or find a bug, please contact via email: free.anatoliy.kovtun@gmail.com
+
+### Screenshots
+
+![Menu](screenshots/main_menu_en.jpg)
+
+![Settings](screenshots/settings_en.jpg)
+
+![Statistics](screenshots/statistics_en.jpg)
+
+![Macrodroid](screenshots/macrodroid.jpg)
 
 ---
 
@@ -106,23 +118,35 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 
 Шлях до файлу логу: /sdcard/Documents/notifications/notification_log.txt
 
-Змінна: log_file_path
+Змінна: **log_file_path**
 
 Максимальний розмір файлу логу в кілобайтах при досягненні якого буде з'являтися попередження: 500 (0 - Попередження з'являтися не буде)
 
-Змінна: log_size_threshold
+Змінна: **log_size_threshold**
 
 Максимальний розмір файлу логу в кілобайтах при досягненні якого автоматично буде створено архів файлу логу а файл логу буде очищено: 1000
 (0 - Архівування і очищення логу відбуватися не буде)
 
-Змінна: log_auto_archive_threshold
+Змінна: **log_auto_archive_threshold**
 
 Максимальна кількість архівів логу які будуть зберігатися (ротація): 10
 
-Змінна: log_archives_max_count
+Змінна: **log_archives_max_count**
 
 Мова. UA/EN (Українська/Англійська): EN
 
-Змінна: language
+Змінна: **language**
+
+### Зворотний зв'язок
 
 Якщо виникнуть побажання для розширення функціоналу макросу чи знайдете баг пишіть на email: free.anatoliy.kovtun@gmail.com
+
+### Скріншоти
+
+![Меню](screenshots/main_menu.jpg)
+
+![Налаштування](screenshots/settings.jpg)
+
+![Статистика](screenshots/statistics.jpg)
+
+![Macrodroid](screenshots/macrodroid.jpg)
