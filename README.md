@@ -139,7 +139,7 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 
 ### Зворотний зв'язок
 
-Якщо виникнуть побажання для розширення функціоналу макросу чи знайдете баг пишіть на email: free.anatoliy.kovtun@gmail.com
+Якщо у вас є пропозиції щодо розширення функціоналу макросу або ви знайшли помилку, будь ласка, використовуйте [GitHub Issues](https://github.com/anatoliy-kovtun/DroidLog/issues) або зв'яжіться зі мною через email: free.anatoliy.kovtun@gmail.com
 
 ### Скріншоти
 
