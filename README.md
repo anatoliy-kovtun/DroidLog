@@ -18,7 +18,7 @@ Title: Notification Title
 Date: 07.04.2026 07:43:00
 Text: Notification Text
 ```
-- Automatically creates log archives and clears the log.
+- Automatically creates plain text log archives using rotation.
 - Features a graphical main menu.
 - Features a graphical settings window.
 - Features a window for viewing notifications in the log.
@@ -46,7 +46,7 @@ Maximum log file size in kilobytes at which a warning will appear: 500 (0 - No w
 
 Variable: **log_size_threshold**
 
-Maximum log file size in kilobytes at which a log archive will be automatically created and the log file cleared: 1000 (0 - Archiving and clearing will not occur)
+Maximum log file size in kilobytes at which the log will be rotated into a new text archive and a fresh log file started: 1000 (0 - Rotation will not occur)
 
 Variable: **log_auto_archive_threshold**
 
@@ -89,7 +89,7 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 Дата: 07.04.2026 07:43:00
 Текст: Текст сповіщення
 ```
-- Автоматично створює архіви логу і очищає лог.
+- Автоматично створює текстові архіви логу за принципом ротації.
 
 - Має своє графічне головне меню.
 
@@ -124,8 +124,8 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 
 Змінна: **log_size_threshold**
 
-Максимальний розмір файлу логу в кілобайтах при досягненні якого автоматично буде створено архів файлу логу а файл логу буде очищено: 1000
-(0 - Архівування і очищення логу відбуватися не буде)
+Максимальний розмір файлу логу в кілобайтах, після досягнення якого буде створено текстовий архів (ротація), а основний лог розпочнеться заново: 1000
+(0 - Ротація логу відбуватися не буде)
 
 Змінна: **log_auto_archive_threshold**
 
