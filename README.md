@@ -6,7 +6,7 @@
 <a name="english"></a>
 ## English Description
 
-Advanced notification logger for MacroDroid.
+Notification logger for MacroDroid.
 ### Main Functionality
 
 - Saves notifications to a text file.
@@ -23,7 +23,9 @@ Text: Notification Text
 - Features a graphical settings window.
 - Features a window for viewing notifications in the log.
 - Features a window for viewing notification statistics.
+- Ability to export all notifications from the log and archives to a TSV file from the macro's main menu.
 - Ability to clear the log file from the macro's main menu.
+- Ability to delete all log archives from the macro's main menu.
 - Supports English and Ukrainian languages.
 
 ### Changelog
@@ -59,11 +61,11 @@ Log file path: /sdcard/Documents/notifications/notification_log.txt
 
 Variable: **log_file_path**
 
-Maximum log file size in kilobytes at which a warning will appear: 500 (0 - No warning will appear)
+Maximum log file size in kilobytes at which a warning will appear: 150 (0 - No warning will appear)
 
 Variable: **log_size_threshold**
 
-Maximum log file size in kilobytes at which the log will be rotated into a new text archive and a fresh log file started: 1000 (0 - Rotation will not occur)
+Maximum log file size in kilobytes at which the log will be rotated into a new text archive and a fresh log file started: 300 (0 - Rotation will not occur)
 
 Variable: **log_auto_archive_threshold**
 
@@ -104,28 +106,42 @@ No, the macro works without MacroDroid Pro.
 
 </details>
 
+<details>
+<summary>What is the minimum Android version required for the macro to work?</summary>
+Android 10+ (the main features will also work on earlier versions, but the "Export to TSV" option will not work because awk is not available on those versions).
+</details>
+
 ### Feedback & Support
 
 If you have suggestions for expanding the macro's functionality or find a bug, please use [GitHub Issues](https://github.com/anatoliy-kovtun/DroidLog/issues) or contact via email: free.anatoliy.kovtun@gmail.com
 
+[Donate (Optional)](https://send.monobank.ua/jar/2BpRbzDBfM)
+
 ### Screenshots
 
-![Menu](screenshots/main_menu_en.jpg)
+<div align="center">
 
-![Settings](screenshots/settings_en.jpg)
+<table>
+<tr>
+<td><img src="screenshots/main_menu_en.jpg" width="300"></td>
+<td><img src="screenshots/settings_en.jpg" width="300"></td>
+<td><img src="screenshots/statistics_en.jpg" width="300"></td>
+</tr>
+<tr>
+<td><img src="screenshots/log_viewer_en.jpg" width="300"></td>
+<td><img src="screenshots/macrodroid.jpg" width="300"></td>
+<td><img src="screenshots/files_en.jpg" width="300"></td>
+</tr>
+</table>
 
-![Statistics](screenshots/statistics_en.jpg)
-
-![Log viewer](screenshots/log_viewer_en.jpg)
-
-![MacroDroid](screenshots/macrodroid.jpg)
+</div>
 
 ---
 
 <a name="українська"></a>
 ## Опис українською
 
-Розширений логер сповіщень для MacroDroid.
+Логер сповіщень для MacroDroid.
 
 ### Основний функціонал
 
@@ -139,17 +155,13 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 Текст: Текст сповіщення
 ```
 - Автоматично створює текстові архіви логу за принципом ротації.
-
 - Має своє графічне головне меню.
-
 - Має своє графічне вікно налаштувань.
-
 - Має своє вікно перегляду сповіщень в лозі.
-
 - Має своє вікно перегляду статистики по сповіщеннях.
-
+- Можливість експортувати всі сповіщення з логу і архівів в TSV файл із головного меню макросу.
 - Можливість очистити файл логу із головного меню макросу.
-
+- Можливість видалити всі архіви логу із головного меню макросу.
 - Має підтримку англійської та української мови.
 
 ### Історія змін (Changelog)
@@ -189,11 +201,11 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 
 Змінна: **log_file_path**
 
-Максимальний розмір файлу логу в кілобайтах при досягненні якого буде з'являтися попередження: 500 (0 - Попередження з'являтися не буде)
+Максимальний розмір файлу логу в кілобайтах при досягненні якого буде з'являтися попередження: 150 (0 - Попередження зʼявлятися не буде)
 
 Змінна: **log_size_threshold**
 
-Максимальний розмір файлу логу в кілобайтах, після досягнення якого буде створено текстовий архів (ротація), а основний лог розпочнеться заново: 1000
+Максимальний розмір файлу логу в кілобайтах, після досягнення якого буде створено текстовий архів (ротація), а основний лог розпочнеться заново: 300
 (0 - Ротація логу відбуватися не буде)
 
 Змінна: **log_auto_archive_threshold**
@@ -212,14 +224,12 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 <summary>Де знаходяться файли архівів?</summary>
 
 Файли архівів знаходяться в тій самій папці, що і файл логу.
-
 </details>
 
 <details>
 <summary>Чи потрібна версія MacroDroid Pro для роботи макросу?</summary>
 
 Ні, макрос працює без версії MacroDroid Pro.
-
 </details>
 
 <details>
@@ -232,21 +242,35 @@ If you have suggestions for expanding the macro's functionality or find a bug, p
 - Стандартний журнал зберігає лише невеликий фрагмент тексту сповіщення, інше обрізається. DroidLog зберігає значно більше тексту.
 
 - Доступ до логів поза телефоном (через файлову систему, ПК тощо).
-
 </details>
 
-### Зворотний зв'язок
+<details>
+<summary>Яка мінімальна версія Android потрібна для роботи макросу?</summary>
+
+Android 10+ (Основні функції працюватимуть і на більш ранніх версіях але опція "Експорт в TSV" не працюватиме по причині відсутності awk в цих версіях).
+</details>
+
+### Зворотний звʼязок
 
 Якщо у вас є пропозиції щодо розширення функціоналу макросу або ви знайшли помилку, будь ласка, використовуйте [GitHub Issues](https://github.com/anatoliy-kovtun/DroidLog/issues) або зв'яжіться зі мною через email: free.anatoliy.kovtun@gmail.com
 
+[Донат (Опціонально)](https://send.monobank.ua/jar/2BpRbzDBfM)
+
 ### Скріншоти
 
-![Меню](screenshots/main_menu_ua.jpg)
+<div align="center">
 
-![Налаштування](screenshots/settings_ua.jpg)
+<table>
+<tr>
+<td><img src="screenshots/main_menu_ua.jpg" width="300"></td>
+<td><img src="screenshots/settings_ua.jpg" width="300"></td>
+<td><img src="screenshots/statistics_ua.jpg" width="300"></td>
+</tr>
+<tr>
+<td><img src="screenshots/log_viewer_ua.jpg" width="300"></td>
+<td><img src="screenshots/macrodroid.jpg" width="300"></td>
+<td><img src="screenshots/files_ua.jpg" width="300"></td>
+</tr>
+</table>
 
-![Статистика](screenshots/statistics_ua.jpg)
-
-![Перегляд логу](screenshots/log_viewer_ua.jpg)
-
-![MacroDroid](screenshots/macrodroid.jpg)
+</div>
