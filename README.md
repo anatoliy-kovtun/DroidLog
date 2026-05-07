@@ -115,7 +115,7 @@ Android 10+ (the main features will also work on earlier versions, but the "Expo
 
 If you have suggestions for expanding the macro's functionality or find a bug, please use [GitHub Issues](https://github.com/anatoliy-kovtun/DroidLog/issues) or contact via email: free.anatoliy.kovtun@gmail.com
 
-[Donate (Optional)](https://send.monobank.ua/jar/2BpRbzDBfM)
+[Support development (optional)](https://send.monobank.ua/jar/2BpRbzDBfM)
 
 ### Screenshots
 
@@ -254,7 +254,7 @@ Android 10+ (Основні функції працюватимуть і на б
 
 Якщо у вас є пропозиції щодо розширення функціоналу макросу або ви знайшли помилку, будь ласка, використовуйте [GitHub Issues](https://github.com/anatoliy-kovtun/DroidLog/issues) або зв'яжіться зі мною через email: free.anatoliy.kovtun@gmail.com
 
-[Донат (Опціонально)](https://send.monobank.ua/jar/2BpRbzDBfM)
+[Підтримати розробку (необов’язково)](https://send.monobank.ua/jar/2BpRbzDBfM)
 
 ### Скріншоти
 
